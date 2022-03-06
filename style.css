@@ -1,6 +1,67 @@
+
+
 body{
 
   background-color: black;
   color: white;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+  margin-bottom: 10px;
+  font-size: 80px;
+}
+
+p{
+  font-size: 25px;
+}
+
+hr{
+  color: gold;
+  width: 55px;
+}
+
+button{
+  background-color: white;
+  border: none;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  cursor: pointer;
+  color: rgb(61, 58, 38);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-top: 80px;
+  scale: 1;
+  box-shadow: rgba(218, 218, 218, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+button:hover{
+  background-color: rgba(255, 217, 0, 0.705);
+
+}
+
+.clicked{
+  background-color: gold;
+  opacity: 2;
+  scale: 1;
+  box-shadow: rgba(248, 232, 0, 0.95) 0px 5px 95px;
+transition: 1s;
+transform: rotate(360deg);
+
+}
+
+.disclicked{
+  scale: 1.5;
+  box-shadow: rgba(248, 232, 0, 0.95) 0px 5px 95px;
+  transition: .5s;
+
+
 }
